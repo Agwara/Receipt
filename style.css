@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.itinerary {
+  background-color: #f3f3f4;
+  width: 400px;
+  min-height: 1000px;
+
+  margin: 40px auto;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;align-items: center;
+}
+
+.headerText {
+  color: #18191e;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.content {
+  border: 1px solid #dddcd9;
+  min-height: 700px;
+  width: 95%;
+  background-color: #fff;
+
+  padding: 20px;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.smallText {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #232322;
+}
+
+.card {
+  width: 100%;
+  height: 120px;
+
+  /* box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.53); */
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.46);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.cardTitle {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+}
+
+.smallTextTwo {
+  font-size: 14px;
+  color: #232322;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.cardItem {
+  display: flex;
+  column-gap: 5px;
+}
+
+.dash {
+  width: 100%;
+  height: 30px;
+  border-top: 2px #eef0eb dashed;
+  margin-top: 30px;
+}
+
+.detailsItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  width: 100%;
+}
+
+.detailsTwo {
+  justify-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+
+  font-size: 14px;
+  color: #8c8d89;
+}
+
+.flightDuration {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeText {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+
+.dataText {
+  font-size: 14px;
+  color: #8c8d89;
+}
+
+.gridItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  margin-bottom: 10px;
+}
+
+.flexItems {
+  display: flex;
+  column-gap: 5px;
+}
+
+.otherFlex {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+
+.infomationContainer {
+  margin-top: 20px;
+}
+
+.infoList {
+  margin-top: 5px;
+  margin-left: 10px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+
+.infoItem {
+  display: flex;
+  column-gap: 3px;
+}
+
+.button {
+  height: 50px;
+  width: 100%;
+  background-color: #EFB700;
+  border: none;
+  border-radius: 6px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
